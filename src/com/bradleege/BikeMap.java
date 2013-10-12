@@ -19,10 +19,12 @@ public class BikeMap extends Activity
 
         // Interact With the MapView
         MapView mapView = (MapView)findViewById(R.id.mapview);
+/*
         mapView.setBuiltInZoomControls(true);
         mapView.setClickable(true);
+*/
         mapView.setMultiTouchControls(true);
-        mapView.getController().setZoom(5);
-        mapView.getController().setCenter(new GeoPoint(44.123, -89.456));
+        mapView.getController().setZoom(15);
+        mapView.getController().setCenter(new GeoPoint(43.05277119900874, -89.42244529724121));
     }
 }
